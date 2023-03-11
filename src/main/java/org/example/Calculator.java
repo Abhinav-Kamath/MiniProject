@@ -20,6 +20,24 @@ public class Calculator {
         logger.info("[RESULT - ROOT] - " + ans);
         return ans;
     }
+    public static double factorial (int n) {
+        logger.info("[FACTORIAL] - " + n);
+        if(n<0) {
+            return Double.NaN;
+        }
+        int ans=1;
+        for(int i=1;i<n+1;i++) {
+            ans*=i;
+        }
+        logger.info("[RESULT - FACTORIAL] - " + ans);
+        return ans;
+    }
+    public static double log(double n) {
+        logger.info("[LOG] - " + n);
+        double ans = Math.log(n);
+        logger.info("[RESULT - LOG] - " + ans);
+        return ans;
+    }
     private static final Logger logger = LogManager.getLogger(Calculator.class);
     //	MyClass.class.getName()
 //	logger.entry();
@@ -48,6 +66,34 @@ public class Calculator {
                 return;
             }
             System.out.println("Result: " + ans);
+        }
+        else if(loop==2) {
+            System.out.println("Factorial function - x!");
+            System.out.println("Input the number");
+            int n=sc.nextInt();
+            Double ans=factorial(n);
+            if(ans.isNaN()) {
+                System.out.println("Invalid input, Please Try again");
+                logger.error("Invalid input, Entered input is not of the expected type");
+
+                return;
+            }
+            System.out.println("Result: "+ ans);
+        }
+        else if(loop==3) {
+            System.out.println("Natural logarithm (base е) - ln(x)");
+            System.out.println("Input the number");
+            double n=sc.nextDouble();
+            Double ans=log(n);
+//			if(ans.isNaN()) {
+//				System.out.println("Invalid input, Please Try again");
+//				return;
+//			}
+            System.out.println("Result: "+ ans);
+        }
+        else {
+            System.out.println("Invalid input, Please Try again");
+
         }
     }
 }
