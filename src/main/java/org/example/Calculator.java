@@ -38,6 +38,12 @@ public class Calculator {
         logger.info("[RESULT - LOG] - " + ans);
         return ans;
     }
+    public static double power (double n1,double n2) {
+        logger.info("[POW] - " + n1+"-"+n2);
+        double ans = Math.pow(n1,n2);
+        logger.info("[RESULT - POW] - " + ans);
+        return ans;
+    }
     private static final Logger logger = LogManager.getLogger(Calculator.class);
     //	MyClass.class.getName()
 //	logger.entry();
@@ -85,6 +91,17 @@ public class Calculator {
             System.out.println("Input the number");
             double n=sc.nextDouble();
             Double ans=log(n);
+//			if(ans.isNaN()) {
+//				System.out.println("Invalid input, Please Try again");
+//				return;
+//			}
+            System.out.println("Result: "+ ans);
+        }else if(loop==4) {
+            System.out.println("Power function - x^"+ "b");
+            System.out.println("Input two numbers with space between them");
+            double n1=sc.nextDouble();
+            double n2=sc.nextDouble();
+            Double ans=power(n1,n2);
 //			if(ans.isNaN()) {
 //				System.out.println("Invalid input, Please Try again");
 //				return;
