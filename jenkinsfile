@@ -11,8 +11,8 @@ pipeline {
                 // Get code from a GitHub repository
                 // Make sure to add your own git url and credentialsId
 				git url: 'https://github.com/Abhinav-Kamath/MiniProject.git',
-				branch: 'main',
-            }
+				branch: 'main'
+			}
         }
         stage('Maven Build') {
             steps {
