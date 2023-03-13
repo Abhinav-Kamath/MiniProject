@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="CalculatorTest" time="0.438" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="CalculatorTest" time="0.4" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10"/>
@@ -59,8 +59,8 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="CalculatorTest" name="testFact1" time="0.436"/>
+  <testcase classname="CalculatorTest" name="testFact1" time="0.397"/>
   <testcase classname="CalculatorTest" name="testFact2" time="0"/>
-  <testcase classname="CalculatorTest" name="testRoot1" time="0.002"/>
+  <testcase classname="CalculatorTest" name="testRoot1" time="0.003"/>
   <testcase classname="CalculatorTest" name="testRoot2" time="0"/>
 </testsuite>
