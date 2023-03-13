@@ -1,14 +1,14 @@
-  --
-  - name: Pull docker image of Calculator
-    hosts: all
-    tasks:
-      - name: Start docker service
-        service:
-          name: docker
-          state: started
+---
+- name: Pull docker image of Calculator
+  hosts: all
+  tasks:
+    - name: Start docker service
+      service:
+        name: docker
+        state: started
 
-      - name: pull docker image
-        shell: docker pull abhinavkamath1/miniprojspe
+    - name: pull docker image
+      shell: docker pull abhinavkamath1/miniprojspe
 
-      - name: running container
-        shell: docker run -it -d abhinavkamath1/miniprojspe /bin/bash
+    - name: running container
+      shell: docker run -it -d abhinavkamath1/miniprojspe /bin/bash
