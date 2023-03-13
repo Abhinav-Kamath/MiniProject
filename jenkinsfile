@@ -22,20 +22,25 @@ pipeline {
         }
         stage('Build Docker Images') {
                     steps {
-                        sh 'docker build -t inspiringrai/calcproj:latest .'
+                        sh 'docker build -t abhinavkamath1/miniproj:latest .'
                     }
                 }
                 stage('Publish Docker Images') {
                     steps {
                         withDockerRegistry([ credentialsId: "dockerid", url: "" ]) {
-                            sh 'docker push inspiringrai/calcproj:latest'
+                            sh 'docker push abhinavkamath1/miniproj:latest'
                         }
                     }
                 }
                 stage('Clean Docker Images') {
                     steps {
-                        sh 'docker rmi -f inspiringrai/calcproj:latest'
+                        sh 'docker rmi -f abhinavkamath1/miniproj:latest'
                     }
                 }
     }
+    post {
+            always {
+                sh 'docker logout'
+            }
+        }
 }
