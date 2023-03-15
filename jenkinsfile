@@ -21,22 +21,27 @@ pipeline {
             }
         }
         stage('Build Docker Images') {
-                    steps {
-                        sh 'docker build -t abhinavkamath1/miniproj:latest .'
-                    }
+            steps {
+                sh 'docker build -t abhinavkamath1/miniproj:latest .'
+            }
+        }
+        stage('Publish Docker Images') {
+            steps {
+                withDockerRegistry([ credentialsId: "dockerid", url: "" ]) {
+                    sh 'docker push abhinavkamath1/miniproj:latest'
                 }
-                stage('Publish Docker Images') {
-                    steps {
-                        withDockerRegistry([ credentialsId: "dockerid", url: "" ]) {
-                            sh 'docker push abhinavkamath1/miniproj:latest'
-                        }
-                    }
-                }
-                stage('Clean Docker Images') {
-                    steps {
-                        sh 'docker rmi -f abhinavkamath1/miniproj:latest'
-                    }
-                }
+            }
+        }
+        stage('Clean Docker Images') {
+            steps {
+                sh 'docker rmi -f abhinavkamath1/miniproj:latest'
+            }
+        }
+        tage('Deploy and Run Image'){
+            steps {
+                ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'playbook.yml', sudoUser: null
+            }
+        }
     }
     post {
             always {
