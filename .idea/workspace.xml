@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e598d438-8fed-40b8-bc66-a8f7ab7ba92e" name="Changes" comment="" />
+    <list default="true" id="e598d438-8fed-40b8-bc66-a8f7ab7ba92e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
