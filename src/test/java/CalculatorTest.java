@@ -59,6 +59,7 @@ public class CalculatorTest {
         assertNotEquals(cal_value,exp_value,delta);
 //        assertTrue( true );
     }
+    @Test
     public void testLog2()
     {
         double cal_value=calci.log(1);
@@ -66,6 +67,7 @@ public class CalculatorTest {
         assertNotEquals(cal_value,exp_value,delta);
 //        assertTrue( true );
     }
+    @Test
     public void testLog1()
     {
         double cal_value=calci.log(1);
