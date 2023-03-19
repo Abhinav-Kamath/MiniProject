@@ -1,0 +1,52 @@
+2023-03-15 16:50:33.906 [main] INFO  org.example.Calculator - [FACTORIAL] - 5
+2023-03-15 16:50:33.908 [main] INFO  org.example.Calculator - [RESULT - FACTORIAL] - 120
+2023-03-15 16:50:33.909 [main] INFO  org.example.Calculator - [FACTORIAL] - 4
+2023-03-15 16:50:33.909 [main] INFO  org.example.Calculator - [RESULT - FACTORIAL] - 24
+2023-03-15 16:50:33.912 [main] INFO  org.example.Calculator - [ROOT] - 25.0
+2023-03-15 16:50:33.913 [main] INFO  org.example.Calculator - [RESULT - ROOT] - 5.0
+2023-03-15 16:50:33.913 [main] INFO  org.example.Calculator - [ROOT] - 36.0
+2023-03-15 16:50:33.913 [main] INFO  org.example.Calculator - [RESULT - ROOT] - 6.0
+2023-03-19 17:35:30.408 [main] INFO  org.example.Calculator - [FACTORIAL] - 5
+2023-03-19 17:35:30.410 [main] INFO  org.example.Calculator - [RESULT - FACTORIAL] - 120
+2023-03-19 17:35:30.411 [main] INFO  org.example.Calculator - [FACTORIAL] - 4
+2023-03-19 17:35:30.411 [main] INFO  org.example.Calculator - [RESULT - FACTORIAL] - 24
+2023-03-19 17:35:30.414 [main] INFO  org.example.Calculator - [ROOT] - 25.0
+2023-03-19 17:35:30.414 [main] INFO  org.example.Calculator - [RESULT - ROOT] - 5.0
+2023-03-19 17:35:30.415 [main] INFO  org.example.Calculator - [ROOT] - 36.0
+2023-03-19 17:35:30.415 [main] INFO  org.example.Calculator - [RESULT - ROOT] - 6.0
+2023-03-19 17:35:30.421 [main] INFO  org.example.Calculator - [POW] - 2.0-4.0
+2023-03-19 17:35:30.421 [main] INFO  org.example.Calculator - [RESULT - POW] - 16.0
+2023-03-19 17:36:44.786 [main] INFO  org.example.Calculator - [FACTORIAL] - 5
+2023-03-19 17:36:44.788 [main] INFO  org.example.Calculator - [RESULT - FACTORIAL] - 120
+2023-03-19 17:36:44.789 [main] INFO  org.example.Calculator - [FACTORIAL] - 4
+2023-03-19 17:36:44.790 [main] INFO  org.example.Calculator - [RESULT - FACTORIAL] - 24
+2023-03-19 17:36:44.793 [main] INFO  org.example.Calculator - [ROOT] - 25.0
+2023-03-19 17:36:44.793 [main] INFO  org.example.Calculator - [RESULT - ROOT] - 5.0
+2023-03-19 17:36:44.794 [main] INFO  org.example.Calculator - [ROOT] - 36.0
+2023-03-19 17:36:44.794 [main] INFO  org.example.Calculator - [RESULT - ROOT] - 6.0
+2023-03-19 17:36:44.801 [main] INFO  org.example.Calculator - [POW] - 2.0-4.0
+2023-03-19 17:36:44.802 [main] INFO  org.example.Calculator - [RESULT - POW] - 16.0
+2023-03-19 17:37:15.240 [main] INFO  org.example.Calculator - [POW] - 2.0-4.0
+2023-03-19 17:37:15.244 [main] INFO  org.example.Calculator - [RESULT - POW] - 16.0
+2023-03-19 17:38:53.727 [main] INFO  org.example.Calculator - [FACTORIAL] - 5
+2023-03-19 17:38:53.729 [main] INFO  org.example.Calculator - [RESULT - FACTORIAL] - 120
+2023-03-19 17:38:53.729 [main] INFO  org.example.Calculator - [FACTORIAL] - 4
+2023-03-19 17:38:53.730 [main] INFO  org.example.Calculator - [RESULT - FACTORIAL] - 24
+2023-03-19 17:38:53.732 [main] INFO  org.example.Calculator - [ROOT] - 25.0
+2023-03-19 17:38:53.733 [main] INFO  org.example.Calculator - [RESULT - ROOT] - 5.0
+2023-03-19 17:38:53.733 [main] INFO  org.example.Calculator - [ROOT] - 36.0
+2023-03-19 17:38:53.734 [main] INFO  org.example.Calculator - [RESULT - ROOT] - 6.0
+2023-03-19 17:38:53.741 [main] INFO  org.example.Calculator - [POW] - 2.0-4.0
+2023-03-19 17:38:53.741 [main] INFO  org.example.Calculator - [RESULT - POW] - 16.0
+2023-03-19 17:41:51.629 [main] INFO  org.example.Calculator - [FACTORIAL] - 5
+2023-03-19 17:41:51.631 [main] INFO  org.example.Calculator - [RESULT - FACTORIAL] - 120
+2023-03-19 17:41:51.632 [main] INFO  org.example.Calculator - [FACTORIAL] - 4
+2023-03-19 17:41:51.632 [main] INFO  org.example.Calculator - [RESULT - FACTORIAL] - 24
+2023-03-19 17:41:51.634 [main] INFO  org.example.Calculator - [ROOT] - 25.0
+2023-03-19 17:41:51.635 [main] INFO  org.example.Calculator - [RESULT - ROOT] - 5.0
+2023-03-19 17:41:51.635 [main] INFO  org.example.Calculator - [ROOT] - 36.0
+2023-03-19 17:41:51.636 [main] INFO  org.example.Calculator - [RESULT - ROOT] - 6.0
+2023-03-19 17:41:51.642 [main] INFO  org.example.Calculator - [POW] - 2.0-4.0
+2023-03-19 17:41:51.643 [main] INFO  org.example.Calculator - [RESULT - POW] - 16.0
+2023-03-19 17:41:51.643 [main] INFO  org.example.Calculator - [POW] - 2.0-3.0
+2023-03-19 17:41:51.644 [main] INFO  org.example.Calculator - [RESULT - POW] - 8.0
